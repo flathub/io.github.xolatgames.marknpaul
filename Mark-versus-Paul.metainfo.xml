@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2024 xolatgames -->
+<component type="desktop-application">
+
+<id>games.xolat.marknpaul</id>
+<replaces>
+<id>io.github.xolatgames.marknpaul</id>
+</replaces>
+
+<metadata_license>CC-BY-SA-4.0</metadata_license>
+<project_license>LicenseRef-proprietary</project_license>
+
+<name>Mark versus Paul!</name>
+<summary>The action-arcade game with spells and somersaults!</summary>
+
+<developer id="games.xolat">
+  <name>xolatgames</name>
+</developer>
+
+<description>
+<p>The action-arcade game with spells and somersaults!
+
+This is the game where you can play as the Wizard and doing many spells! You need to come through eight locations. Dodges from enemies and it's bullets. Fast changing between spells and also have understanding which spell you needing use now. And Finally! Get fight with the Final Boss!</p>
+<p><b>Features:</b></p>
+  <ul>
+    <li>Spelling any of the eight spells!</li>
+    <li>Doing somersaults and dodging out of enemies and it's bullets!</li>
+    <li>Many locations with different events!</li>
+    <li>Get fighting with the Final Boss!</li>
+  </ol>
+</description>
+
+<launchable type="desktop-id">games.xolat.marknpaul.desktop</launchable>
+
+<provides>
+  <id>marknpaul.desktop</id>
+</provides>
+
+<categories>
+  <category>Game</category>
+</categories>
+
+<keywords>
+  <keyword>Action</keyword>
+  <keyword>Arcade</keyword>
+  <keyword>Magic</keyword>
+  <keyword>Wizard</keyword>
+  <keyword>Adventure</keyword>
+  <keyword>Spells</keyword>
+</keywords>
+
+<icon type="stock">games.xolat.marknpaul</icon>
+
+<project_group>Freedesktop</project_group>
+
+<branding>
+  <color type="primary" scheme_preference="light">#f2f2f2</color>
+  <color type="primary" scheme_preference="dark">#330080</color>
+</branding>
+
+<content_rating type="oars-1.1">
+  <content_attribute id="violence-cartoon">moderate</content_attribute>
+  <content_attribute id="violence-fantasy">moderate</content_attribute>
+  <content_attribute id="violence-desecration">moderate</content_attribute>
+  <content_attribute id="language-profanity">mild</content_attribute>
+</content_rating>
+
+<url type="homepage">https://xolat.games/index.php/all-games/relatively-fresh/mark-versus-paul</url>
+<url type="vcs-browser">https://gitlab.com/xolatgames/mark-versus-paul-recoded-edition</url>
+
+<screenshots>
+  <screenshot type="default">
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzMy5wbmc=/original/m%2BOjDL.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAyOS5wbmc=/original/tzctI8.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzMS5wbmc=/original/2qcGSF.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzNi5wbmc=/original/zHVrtb.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzMC5wbmc=/original/SFq8vd.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAyOC5wbmc=/original/8qT8xi.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzNS5wbmc=/original/j6ReHu.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAyNy5wbmc=/original/lWtqDF.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzMi5wbmc=/original/ckss6C.png</image>
+  </screenshot>
+  <screenshot>
+    <image>https://img.itch.zone/aW1hZ2UvMjIyNDA2Ni8xNTk5NzAzNC5wbmc=/original/0OhAQ0.png</image>
+  </screenshot>
+</screenshots>
+
+<releases>
+  <release version="2.0.1" date="2024-05-02">
+    <description>
+      <p>Sorry mans for my mistake with that magic shield, if you already have playing in this. I fixed this now! And as an apology I added 6 languages in my game. Yeap! And also remade the winter level. The build is below. So, have a nice play as always! 😉</p>
+    </description>
+  </release>
+  <release version="2.0.0" date="2024-05-02">
+    <description>
+      <p>Hi there! I diceded to close the source code of this project and then publish THE BIG UPDATE for this game! Every of the available levels are rewrited. Absolutely every! The performance of this project is improved, and more animation for God of animation! The changes are everywhere, because this is 2.0.0 version! I will tire if I tell you about all of this changes.</p>
+    </description>
+  </release>
+</releases>
+
+<requires>
+  <control>keyboard</control>
+  <control>pointing</control>
+</requires>

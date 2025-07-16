@@ -1,0 +1,31 @@
+app-id: games.xolat.marknpaul
+runtime: org.freedesktop.Platform
+runtime-version: '23.08'
+sdk: org.freedesktop.Sdk
+command: marknpaul
+finish-args:
+  - --share=ipc
+  - --socket=pulseaudio
+  - --socket=x11
+  - --device=dri
+modules:
+  - name: marknpaul
+    buildsystem: simple
+    build-commands:
+      - install -D Mark-versus-Paul.x86_64 /app/bin/marknpaul
+      - install -D Mark-versus-Paul.png /app/share/icons/hicolor/512x512/apps/games.xolat.marknpaul.png
+      - install -D Mark-versus-Paul.desktop /app/share/applications/games.xolat.marknpaul.desktop
+      - install -D Mark-versus-Paul.metainfo.xml /app/share/metainfo/games.xolat.marknpaul.metainfo.xml
+    sources:
+      - type: file
+        url: https://xolat.games/games/marknpaul/Mark-versus-Paul.x86_64
+        sha256: cfde3486f6895d38561c1646c402cd89efa001464269ecf79cc1b4e4efcca0d3
+      - type: file
+        url: https://xolat.games/games/marknpaul/Mark-versus-Paul.png
+        sha256: 44f66cca5d94133c3bc255ec664d457a0007885d46b31ed9af2507534b47d481
+      - type: file
+        url: https://xolat.games/games/marknpaul/Mark-versus-Paul.desktop
+        sha256: 2e02915aae35150a0054bd213de457aa39e717d2d77df9261bac6f2251543850
+      - type: file
+        url: https://xolat.games/games/marknpaul/Mark-versus-Paul.metainfo.xml
+        sha256: f451429c7783a7ea8b3120610fad02a26c5889b7046925e1291d9cbe950e9f8d
