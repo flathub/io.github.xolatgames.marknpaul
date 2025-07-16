@@ -25,7 +25,7 @@ modules:
         sha256: 44f66cca5d94133c3bc255ec664d457a0007885d46b31ed9af2507534b47d481
       - type: file
         url: https://xolat.games/games/marknpaul/Mark-versus-Paul.desktop
-        sha256: 2e02915aae35150a0054bd213de457aa39e717d2d77df9261bac6f2251543850
+        sha256: db6333d80d212b9d44db08cff080c866c7625198f4e9980970e73faea6b54787
       - type: file
         url: https://xolat.games/games/marknpaul/Mark-versus-Paul.metainfo.xml
-        sha256: f451429c7783a7ea8b3120610fad02a26c5889b7046925e1291d9cbe950e9f8d
+        sha256: a758ed431c50031b8257cd9c22f509daef998e963d29c805956d6ed10fc40bea
